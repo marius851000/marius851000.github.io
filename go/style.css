@@ -1,0 +1,162 @@
+body{
+    background-color:black;
+    margin:0px;
+}
+
+
+/* menu du haut*/
+
+#up{
+    display:flex;
+    justify-content:space-between;
+    background-color:white;
+}
+
+#logo{
+    margin-top:15px;
+    margin-left:165px;
+    margin-bottom:30px;
+}
+
+#up .top_right{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#head{
+    background-image:url("img/guitare.png");
+    background-attachment:fixed;
+    background-size: cover;
+    padding-bottom:100px;
+}
+
+/* menu principal */
+
+#menu ul li{
+    font-size:150%;
+    list-style:none;
+}
+
+#menu ul{
+    display:flex;
+    justify-content:space-between;
+    padding-top:30px;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#menu{
+    margin-top:-16px;
+    background-color:rgba(255, 255, 255, 0.75)
+}
+
+/*objet à la une*/
+
+.white{
+    margin:0px;
+    padding:0px;
+    display:block;
+    width: 500px;
+    display:flex;
+}
+
+.objet{
+    margin-left:200px;
+    margin-top:100px;
+    border-left-style:solid;
+    border-left-color:rgb(21, 160, 181);
+}
+
+.objet .titre{
+    color:white;
+    background-color:rgb(21, 160, 181);
+    font-size:xx-large;
+    display:inline;
+}
+
+.object_img{
+    height: 100%;
+    width: auto;
+}
+
+.white .picture{
+    width: 700px;
+    height: 350px;
+    background-color:rgba(255,255,255,0.70);
+    margin-top:-1px;
+}
+
+.objet .right{
+    margin-top:-1px;
+    width: 900px;
+    background-color:white;
+    padding-left:50px;
+}
+
+.description{
+    margin-top:100px;
+}
+
+.price{
+    color:blue;
+    font-size:200%;
+}
+
+.moree{
+    color:blue;
+    font-size:large;
+}
+
+.press{
+    font-size:xx-large;
+}
+
+/* commentaire */
+section{
+    background-color:white;
+    padding-top:50px;
+    text-align:center;
+    padding-bottom:50px;
+}
+
+section p{
+    padding-left:25%;
+    padding-right:25%;
+}
+
+/* fond deux dans la page d'acceuil */
+
+.part2{
+    background-image:url(img/guitare_2.png);
+    background-attachment: fixed;
+    background-size:cover;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+
+.liste_vente{
+    margin-top:100px;
+}
+
+.produit{
+    display:flex;
+}
+
+.listed{
+    background-color:white;
+    color:black;
+    width: 300px;
+    margin-left:50px;
+    border-style:solid;
+    border-color:#15a0b5;
+}
+
+.listed p{
+    margin-top:0px;
+    float:left;
+    background-color:#15a0b5;
+    padding-left:10px;
+    padding-bottom:5px;
+    padding-right: 10px;
+    color:white;
+}
